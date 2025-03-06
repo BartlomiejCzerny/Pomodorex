@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bartek\\source\\repos\\Pomodorex\\Pomodorex\\Pomodorex.csproj": {}
+    "C:\\Users\\Bartek\\Projekty\\Pomodorex\\Pomodorex\\Pomodorex.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bartek\\source\\repos\\Pomodorex\\Pomodorex\\Pomodorex.csproj": {
+    "C:\\Users\\Bartek\\Projekty\\Pomodorex\\Pomodorex\\Pomodorex.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bartek\\source\\repos\\Pomodorex\\Pomodorex\\Pomodorex.csproj",
+        "projectUniqueName": "C:\\Users\\Bartek\\Projekty\\Pomodorex\\Pomodorex\\Pomodorex.csproj",
         "projectName": "Pomodorex",
-        "projectPath": "C:\\Users\\Bartek\\source\\repos\\Pomodorex\\Pomodorex\\Pomodorex.csproj",
+        "projectPath": "C:\\Users\\Bartek\\Projekty\\Pomodorex\\Pomodorex\\Pomodorex.csproj",
         "packagesPath": "C:\\Users\\Bartek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bartek\\source\\repos\\Pomodorex\\Pomodorex\\obj\\",
+        "outputPath": "C:\\Users\\Bartek\\Projekty\\Pomodorex\\Pomodorex\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
