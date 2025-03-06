@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rp2yLT+3WU8=",
+  "dgSpecHash": "eG2sh+UXcgQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bartek\\source\\repos\\Pomodorex\\Pomodorex\\Pomodorex.csproj",
+  "projectFilePath": "C:\\Users\\Bartek\\Projekty\\Pomodorex\\Pomodorex\\Pomodorex.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bartek\\.nuget\\packages\\googlegson\\2.11.0.3\\googlegson.2.11.0.3.nupkg.sha512",
     "C:\\Users\\Bartek\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.0\\microsoft.extensions.configuration.9.0.0.nupkg.sha512",
