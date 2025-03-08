@@ -1,0 +1,7 @@
+ *.cs linguist-detectable=true
+*.cs linguist-language=C#
+*.xaml linguist-detectable=true
+*.xaml linguist-language=XAML
+*.java linguist-detectable=false
+*.ll linguist-detectable=false
+*.h linguist-detectable=false
