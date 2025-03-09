@@ -1,12 +1,88 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Bartek\\Projekty\\Pomodorex\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{726A7A3E-496A-4EFC-9D1E-A0F61CA14E1F}|Pomodorex\\Pomodorex.csproj|c:\\users\\bartek\\projekty\\pomodorex\\pomodorex\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{726A7A3E-496A-4EFC-9D1E-A0F61CA14E1F}|Pomodorex\\Pomodorex.csproj|solutionrelative:pomodorex\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726A7A3E-496A-4EFC-9D1E-A0F61CA14E1F}|Pomodorex\\Pomodorex.csproj|c:\\users\\bartek\\projekty\\pomodorex\\pomodorex\\aboutpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{726A7A3E-496A-4EFC-9D1E-A0F61CA14E1F}|Pomodorex\\Pomodorex.csproj|solutionrelative:pomodorex\\aboutpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726A7A3E-496A-4EFC-9D1E-A0F61CA14E1F}|Pomodorex\\Pomodorex.csproj|c:\\users\\bartek\\projekty\\pomodorex\\pomodorex\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{726A7A3E-496A-4EFC-9D1E-A0F61CA14E1F}|Pomodorex\\Pomodorex.csproj|solutionrelative:pomodorex\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726A7A3E-496A-4EFC-9D1E-A0F61CA14E1F}|Pomodorex\\Pomodorex.csproj|c:\\users\\bartek\\projekty\\pomodorex\\pomodorex\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{726A7A3E-496A-4EFC-9D1E-A0F61CA14E1F}|Pomodorex\\Pomodorex.csproj|solutionrelative:pomodorex\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AboutPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Bartek\\Projekty\\Pomodorex\\Pomodorex\\AboutPage.xaml",
+              "RelativeDocumentMoniker": "Pomodorex\\AboutPage.xaml",
+              "ToolTip": "C:\\Users\\Bartek\\Projekty\\Pomodorex\\Pomodorex\\AboutPage.xaml",
+              "RelativeToolTip": "Pomodorex\\AboutPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-08T23:23:22.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Bartek\\Projekty\\Pomodorex\\Pomodorex\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pomodorex\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Bartek\\Projekty\\Pomodorex\\Pomodorex\\MainPage.xaml.cs",
+              "RelativeToolTip": "Pomodorex\\MainPage.xaml.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAA3wCgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T23:16:36.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\Bartek\\Projekty\\Pomodorex\\Pomodorex\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "Pomodorex\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\Bartek\\Projekty\\Pomodorex\\Pomodorex\\MauiProgram.cs",
+              "RelativeToolTip": "Pomodorex\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T23:16:30.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Bartek\\Projekty\\Pomodorex\\Pomodorex\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Pomodorex\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\Bartek\\Projekty\\Pomodorex\\Pomodorex\\MainPage.xaml",
+              "RelativeToolTip": "Pomodorex\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-08T23:16:26.442Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

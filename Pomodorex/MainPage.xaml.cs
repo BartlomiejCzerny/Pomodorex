@@ -2,23 +2,46 @@
 {
     public partial class MainPage : ContentPage
     {
-        int count = 0;
+        private DateTime timeStarted;
+        private bool running;
 
         public MainPage()
         {
             InitializeComponent();
         }
 
-        private void OnCounterClicked(object sender, EventArgs e)
+        private void btnTimer_Clicked(object sender, EventArgs e)
         {
-            count++;
-
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
+            if (btnTimer.Text.Contains("Uruchom"))
+            {
+                timeStarted = DateTime.Now;
+                running = true;
+                Thread thread = new Thread(timer);
+                thread.Start();
+                btnTimer.Text = "Zatrzymaj";
+            }
             else
-                CounterBtn.Text = $"Clicked {count} times";
+            {
+                running = false;
+                btnTimer.Text = "Uruchom";
+            }
+        }
 
-            SemanticScreenReader.Announce(CounterBtn.Text);
+        private void timer()
+        {
+            if (!running)
+            {
+                return;
+            }
+            DateTime time = DateTime.Now;
+            TimeSpan timePassed = time - timeStarted;
+            Dispatcher.Dispatch(new Action(() =>
+            {
+                string formattedTime = string.Format("{0:D2}:{1:D2}", (int)timePassed.TotalMinutes, timePassed.Seconds);
+                lblTimer.Text = formattedTime;
+            }));
+            Thread.Sleep(100);
+            timer();
         }
     }
 
