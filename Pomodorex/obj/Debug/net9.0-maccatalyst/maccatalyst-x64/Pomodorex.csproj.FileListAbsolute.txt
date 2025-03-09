@@ -296,3 +296,7 @@ C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccat
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\Pomodorex.pdb
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\Pomodorex.genruntimeconfig.cache
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\ref\Pomodorex.dll
+C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\icon_about_ios.png
+C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\icon_notes_ios.png
+C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\icon_notes.png
+C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\icon_about.png
