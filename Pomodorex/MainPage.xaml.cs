@@ -16,7 +16,7 @@
             {
                 timeStarted = DateTime.Now;
                 running = true;
-                Thread thread = new Thread(timer);
+                Thread thread = new Thread(StartTimer);
                 thread.Start();
                 btnTimer.Text = "Zatrzymaj";
             }
@@ -27,7 +27,7 @@
             }
         }
 
-        private void timer()
+        private void StartTimer()
         {
             if (!running)
             {
@@ -41,7 +41,7 @@
                 lblTimer.Text = formattedTime;
             }));
             Thread.Sleep(100);
-            timer();
+            StartTimer();
         }
     }
 
