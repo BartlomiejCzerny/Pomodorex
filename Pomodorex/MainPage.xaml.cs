@@ -2,7 +2,7 @@
 {
     public partial class MainPage : ContentPage
     {
-        private DateTime timeStarted;
+        private DateTime timeEnds;
         private bool running;
 
         public MainPage()
@@ -14,7 +14,7 @@
         {
             if (btnTimer.Text.Contains("Uruchom"))
             {
-                timeStarted = DateTime.Now;
+                timeEnds = DateTime.Now.AddMinutes(25);
                 running = true;
                 Thread thread = new Thread(StartTimer);
                 thread.Start();
@@ -34,15 +34,23 @@
                 return;
             }
             DateTime time = DateTime.Now;
-            TimeSpan timePassed = time - timeStarted;
-            Dispatcher.Dispatch(new Action(() =>
+            TimeSpan timeRemaining = timeEnds - time;
+
+            if (timeRemaining.TotalSeconds <= 0)
             {
-                string formattedTime = string.Format("{0:D2}:{1:D2}", (int)timePassed.TotalMinutes, timePassed.Seconds);
+                running = false;
+                Dispatcher.Dispatch(() => lblTimer.Text = "00:00");
+                return;
+            }
+
+            Dispatcher.Dispatch(() =>
+            {
+                string formattedTime = string.Format("{0:D2}:{1:D2}", (int)timeRemaining.TotalMinutes, timeRemaining.Seconds);
                 lblTimer.Text = formattedTime;
-            }));
+            });
+
             Thread.Sleep(100);
             StartTimer();
         }
     }
-
 }
