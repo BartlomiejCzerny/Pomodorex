@@ -4,7 +4,7 @@
              x:Class="Pomodorex.MainPage">
     <ScrollView>
         <VerticalStackLayout VerticalOptions="Center">
-            <Label x:Name="lblTimer" Margin="20" FontSize="50" Text="00:00" HorizontalOptions="Center"/>
+            <Label x:Name="lblTimer" Margin="20" FontSize="50" Text="25:00" HorizontalOptions="Center"/>
             <Button x:Name="btnTimer" WidthRequest="200" Text="Uruchom" Clicked="btnTimer_Clicked"/>
         </VerticalStackLayout>
     </ScrollView>
