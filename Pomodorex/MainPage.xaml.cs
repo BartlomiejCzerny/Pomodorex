@@ -12,13 +12,13 @@
 
         private void btnTimer_Clicked(object sender, EventArgs e)
         {
-            if (btnTimer.Text.Contains("Uruchom"))
+            if (!running)
             {
                 timeEnds = DateTime.Now.AddMinutes(25);
                 running = true;
-                Thread thread = new Thread(StartTimer);
-                thread.Start();
                 btnTimer.Text = "Zatrzymaj";
+
+                Task.Run(StartTimer);
             }
             else
             {
@@ -27,30 +27,27 @@
             }
         }
 
-        private void StartTimer()
+        private async Task StartTimer()
         {
-            if (!running)
+            while (running)
             {
-                return;
+                DateTime time = DateTime.Now;
+                TimeSpan timeRemaining = timeEnds - time;
+
+                if (timeRemaining.TotalSeconds <= 0)
+                {
+                    running = false;
+                    Dispatcher.Dispatch(() => lblTimer.Text = "00:00");
+                    return;
+                }
+
+                Dispatcher.Dispatch(() =>
+                {
+                    lblTimer.Text = $"{(int)timeRemaining.TotalMinutes:D2}:{timeRemaining.Seconds:D2}";
+                });
+
+                await Task.Delay(1000);
             }
-            DateTime time = DateTime.Now;
-            TimeSpan timeRemaining = timeEnds - time;
-
-            if (timeRemaining.TotalSeconds <= 0)
-            {
-                running = false;
-                Dispatcher.Dispatch(() => lblTimer.Text = "00:00");
-                return;
-            }
-
-            Dispatcher.Dispatch(() =>
-            {
-                string formattedTime = string.Format("{0:D2}:{1:D2}", (int)timeRemaining.TotalMinutes, timeRemaining.Seconds);
-                lblTimer.Text = formattedTime;
-            });
-
-            Thread.Sleep(100);
-            StartTimer();
         }
     }
 }
