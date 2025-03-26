@@ -947,3 +947,4 @@ C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-android\stamp\_Con
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-android\assets\sound.mp3

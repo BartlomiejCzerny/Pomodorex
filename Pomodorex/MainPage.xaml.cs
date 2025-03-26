@@ -1,4 +1,6 @@
-﻿namespace Pomodorex
+﻿using System.Diagnostics;
+
+namespace Pomodorex
 {
     public partial class MainPage : ContentPage
     {
@@ -37,7 +39,14 @@
                 if (timeRemaining.TotalSeconds <= 0)
                 {
                     running = false;
-                    Dispatcher.Dispatch(() => lblTimer.Text = "00:00");
+                    Dispatcher.Dispatch(() =>
+                    {
+                        lblTimer.Text = "00:00";
+                        btnTimer.Text = "Uruchom";
+                    });
+
+                    PlayNotificationSound();
+
                     return;
                 }
 
@@ -48,6 +57,12 @@
 
                 await Task.Delay(1000);
             }
+        }
+
+        public void PlayNotificationSound()
+        {
+            string path = Path.Combine(AppContext.BaseDirectory, "sound.mp3");
+            Process.Start(new ProcessStartInfo { FileName = path, UseShellExecute = true });
         }
     }
 }
