@@ -261,6 +261,10 @@ C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-ios\iossimulator-x
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449@2x.png
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449@3x.png
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-ios\iossimulator-x64\mauisplash.stamp
+C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Resources\icon_about.png
+C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Resources\icon_notes_ios.png
+C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Resources\icon_notes.png
+C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Resources\icon_about_ios.png
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appiconItunesArtwork.png
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon83.5x83.5@2x.png
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon76x76@2x.png
@@ -308,7 +312,3 @@ C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-ios\iossimulator-x
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-ios\iossimulator-x64\Pomodorex.pdb
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-ios\iossimulator-x64\Pomodorex.genruntimeconfig.cache
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-ios\iossimulator-x64\ref\Pomodorex.dll
-C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Resources\icon_notes.png
-C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Resources\icon_about_ios.png
-C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Resources\icon_notes_ios.png
-C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Resources\icon_about.png

@@ -250,6 +250,10 @@ C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccat
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\mauifont.inputs
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\mauisplash.inputs
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\mauisplash.stamp
+C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\icon_notes_ios.png
+C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\icon_about.png
+C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\icon_about_ios.png
+C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\icon_notes.png
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appiconItunesArtwork.png
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon83.5x83.5@2x.png
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon76x76@2x.png
@@ -296,7 +300,3 @@ C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccat
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\Pomodorex.pdb
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\Pomodorex.genruntimeconfig.cache
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\ref\Pomodorex.dll
-C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\icon_about_ios.png
-C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\icon_notes_ios.png
-C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\icon_notes.png
-C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\icon_about.png
