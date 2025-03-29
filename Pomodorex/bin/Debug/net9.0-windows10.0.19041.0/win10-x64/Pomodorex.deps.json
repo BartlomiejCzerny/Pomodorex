@@ -11,6 +11,7 @@
         "dependencies": {
           "Microsoft.Extensions.Logging.Debug": "9.0.3",
           "Microsoft.Maui.Controls": "9.0.50",
+          "System.Windows.Extensions": "9.0.3",
           "Microsoft.Web.WebView2.Core.Projection": "1.0.2903.40",
           "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.57"
         },
@@ -441,6 +442,14 @@
           }
         }
       },
+      "System.Windows.Extensions/9.0.3": {
+        "runtime": {
+          "runtimes/win/lib/net9.0/System.Windows.Extensions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.325.11113"
+          }
+        }
+      },
       "Microsoft.Web.WebView2.Core.Projection/1.0.2903.40": {
         "runtime": {
           "Microsoft.Web.WebView2.Core.Projection.dll": {
@@ -622,6 +631,13 @@
       "sha512": "sha512-zcOHaqII9erAmn3w3MP5rSmBzWf/IC8yU4nPCtwDquhy3vadW6Pm/0lOvnOCcZNN6TztPPODl9CQqDKSAGCeHQ==",
       "path": "microsoft.windowsappsdk/1.6.250205002",
       "hashPath": "microsoft.windowsappsdk.1.6.250205002.nupkg.sha512"
+    },
+    "System.Windows.Extensions/9.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NprFIDXNtYcozulQxOfF0o3z/kq2XRnnip+fpfcqBhfsIjLfIkuEVvwJkFefn5xN3IKfx8+j2RNOyjHnwZ1ZGw==",
+      "path": "system.windows.extensions/9.0.3",
+      "hashPath": "system.windows.extensions.9.0.3.nupkg.sha512"
     },
     "Microsoft.Web.WebView2.Core.Projection/1.0.2903.40": {
       "type": "reference",

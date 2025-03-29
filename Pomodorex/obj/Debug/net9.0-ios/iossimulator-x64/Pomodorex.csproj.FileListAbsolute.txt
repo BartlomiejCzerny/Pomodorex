@@ -312,3 +312,4 @@ C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-ios\iossimulator-x
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-ios\iossimulator-x64\Pomodorex.pdb
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-ios\iossimulator-x64\Pomodorex.genruntimeconfig.cache
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-ios\iossimulator-x64\ref\Pomodorex.dll
+C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\bin\Debug\net9.0-ios\iossimulator-x64\System.Windows.Extensions.dll

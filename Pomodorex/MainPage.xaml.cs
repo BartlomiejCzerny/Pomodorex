@@ -1,4 +1,4 @@
-﻿using System.Diagnostics;
+﻿using System.Media;
 
 namespace Pomodorex
 {
@@ -61,8 +61,8 @@ namespace Pomodorex
 
         public void PlayNotificationSound()
         {
-            string path = Path.Combine(AppContext.BaseDirectory, "sound.mp3");
-            Process.Start(new ProcessStartInfo { FileName = path, UseShellExecute = true });
+            var player = new SoundPlayer("sound.wav");
+            player.Play();
         }
     }
 }
