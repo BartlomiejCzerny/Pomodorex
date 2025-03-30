@@ -1,0 +1,1 @@
+C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\Pomodorex.csproj;x64

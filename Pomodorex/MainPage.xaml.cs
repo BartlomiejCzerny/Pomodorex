@@ -61,7 +61,8 @@ namespace Pomodorex
 
         public void PlayNotificationSound()
         {
-            var player = new SoundPlayer("sound.wav");
+            var path = Path.Combine(AppContext.BaseDirectory, "sound.wav");
+            var player = new SoundPlayer(path);
             player.Play();
         }
     }
