@@ -5,8 +5,8 @@
     <ScrollView>
         <VerticalStackLayout VerticalOptions="Center">
             <Label x:Name="lblTimer" FontSize="50" Text="25:00" HorizontalOptions="Center"/>
-            <Slider Minimum="1" Maximum="60" Value="25" ValueChanged="OnSliderValueChanged" WidthRequest="200"/>
-            <Button x:Name="btnTimer" Margin="20" WidthRequest="200" Text="Uruchom" Clicked="btnTimer_Clicked"/>
+            <Slider WidthRequest="200" Minimum="1" Maximum="60" Value="25" ValueChanged="OnPomodoroDurationChanged"/>
+            <Button x:Name="btnTimer" WidthRequest="200" Text="Uruchom" Margin="20" Clicked="btnTimer_Clicked"/>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
