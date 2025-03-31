@@ -6,17 +6,20 @@ namespace Pomodorex
     {
         private DateTime timeEnds;
         private bool running;
+        private int pomodoroDuration;
 
         public MainPage()
         {
             InitializeComponent();
+
+            pomodoroDuration = 25;
         }
 
         private void btnTimer_Clicked(object sender, EventArgs e)
         {
             if (!running)
             {
-                timeEnds = DateTime.Now.AddMinutes(25);
+                timeEnds = DateTime.Now.AddMinutes(pomodoroDuration);
                 running = true;
                 btnTimer.Text = "Zatrzymaj";
 
@@ -64,6 +67,24 @@ namespace Pomodorex
             var path = Path.Combine(AppContext.BaseDirectory, "sound.wav");
             var player = new SoundPlayer(path);
             player.Play();
+        }
+
+        Slider slider = new Slider
+        {
+            Maximum = 60,
+            Minimum = 1,
+            Value = 25
+        };
+        void OnSliderValueChanged(object sender, ValueChangedEventArgs args)
+        {
+            pomodoroDuration = (int)args.NewValue;
+            lblTimer.Text = $"{pomodoroDuration:D2}:00";
+
+            // Ustawiamy rotację w zależności od wartości suwaka
+            //rotatingLabel.Rotation = value;
+
+            // Aktualizujemy tekst w label
+            //displayLabel.Text = $"Czas: {value:F0} min"; // Przykład: 15 min
         }
     }
 }

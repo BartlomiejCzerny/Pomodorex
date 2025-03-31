@@ -4,8 +4,9 @@
              x:Class="Pomodorex.MainPage">
     <ScrollView>
         <VerticalStackLayout VerticalOptions="Center">
-            <Label x:Name="lblTimer" Margin="20" FontSize="50" Text="25:00" HorizontalOptions="Center"/>
-            <Button x:Name="btnTimer" WidthRequest="200" Text="Uruchom" Clicked="btnTimer_Clicked"/>
+            <Label x:Name="lblTimer" FontSize="50" Text="25:00" HorizontalOptions="Center"/>
+            <Slider Minimum="1" Maximum="60" Value="25" ValueChanged="OnSliderValueChanged" WidthRequest="200"/>
+            <Button x:Name="btnTimer" Margin="20" WidthRequest="200" Text="Uruchom" Clicked="btnTimer_Clicked"/>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
