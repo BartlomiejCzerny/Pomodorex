@@ -4,14 +4,13 @@ namespace Pomodorex
 {
     public partial class MainPage : ContentPage
     {
+        private byte pomodoroDuration;
         private DateTime timeEnds;
         private bool running;
-        private int pomodoroDuration;
 
         public MainPage()
         {
             InitializeComponent();
-
             pomodoroDuration = 25;
         }
 
@@ -47,9 +46,7 @@ namespace Pomodorex
                         lblTimer.Text = "00:00";
                         btnTimer.Text = "Uruchom";
                     });
-
                     PlayNotificationSound();
-
                     return;
                 }
 
@@ -62,29 +59,19 @@ namespace Pomodorex
             }
         }
 
-        public void PlayNotificationSound()
+        private void PlayNotificationSound()
         {
             var path = Path.Combine(AppContext.BaseDirectory, "sound.wav");
             var player = new SoundPlayer(path);
             player.Play();
         }
 
-        Slider slider = new Slider
+        private void OnPomodoroDurationChanged(object sender, ValueChangedEventArgs args)
         {
-            Maximum = 60,
-            Minimum = 1,
-            Value = 25
-        };
-        void OnSliderValueChanged(object sender, ValueChangedEventArgs args)
-        {
-            pomodoroDuration = (int)args.NewValue;
+            running = false;
+            btnTimer.Text = "Uruchom";
+            pomodoroDuration = (byte)args.NewValue;
             lblTimer.Text = $"{pomodoroDuration:D2}:00";
-
-            // Ustawiamy rotację w zależności od wartości suwaka
-            //rotatingLabel.Rotation = value;
-
-            // Aktualizujemy tekst w label
-            //displayLabel.Text = $"Czas: {value:F0} min"; // Przykład: 15 min
         }
     }
 }
