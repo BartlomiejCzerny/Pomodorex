@@ -4,55 +4,90 @@ namespace Pomodorex
 {
     public partial class MainPage : ContentPage
     {
-        private byte pomodoroDuration;
-        private DateTime timeEnds;
-        private bool running;
+        private byte _pomodoroDuration = 25;
+        private bool _isStarted;
+        private bool _isPaused;
+        private DateTime _timeEnds;
+        private TimeSpan _remainingTime;
+
+        public bool isStarted
+        {
+            get => _isStarted;
+            set
+            {
+                if (_isStarted != value)
+                {
+                    _isStarted = value;
+                    OnPropertyChanged();
+                }
+            }
+        }
 
         public MainPage()
         {
             InitializeComponent();
-            pomodoroDuration = 25;
+            BindingContext = this;
         }
 
-        private void btnTimer_Clicked(object sender, EventArgs e)
+        private void btnStartPauseTimer_Clicked(object sender, EventArgs e)
         {
-            if (!running)
+            if (!isStarted && !_isPaused)
             {
-                timeEnds = DateTime.Now.AddMinutes(pomodoroDuration);
-                running = true;
-                btnTimer.Text = "Zatrzymaj";
-
+                _remainingTime = TimeSpan.FromMinutes(_pomodoroDuration);
+                _timeEnds = DateTime.Now.Add(_remainingTime);
+                isStarted = true;
+                btnStartPauseTimer.Text = "Wstrzymaj";
                 Task.Run(StartTimer);
             }
-            else
+            else if (isStarted)
             {
-                running = false;
-                btnTimer.Text = "Uruchom";
+                _remainingTime = _timeEnds - DateTime.Now;
+                isStarted = false;
+                _isPaused = true;
+                btnStartPauseTimer.Text = "Wznów";
             }
+            else if (_isPaused)
+            {
+                _timeEnds = DateTime.Now.Add(_remainingTime);
+                isStarted = true;
+                _isPaused = false;
+                btnStartPauseTimer.Text = "Wstrzymaj";
+                Task.Run(StartTimer);
+            }
+        }
+
+        private void btnStopTimer_Clicked(object sender, EventArgs e)
+        {
+            isStarted = false;
+            _isPaused = false;
+            btnStartPauseTimer.Text = "Uruchom";
+            lblTimer.Text = $"{_pomodoroDuration:D2}:00";
         }
 
         private async Task StartTimer()
         {
-            while (running)
+            while (isStarted)
             {
-                DateTime time = DateTime.Now;
-                TimeSpan timeRemaining = timeEnds - time;
+                _remainingTime = _timeEnds - DateTime.Now;
 
-                if (timeRemaining.TotalSeconds <= 0)
+                if (_remainingTime.TotalSeconds <= 0)
                 {
-                    running = false;
+                    isStarted = false;
+                    _isPaused = false;
+
                     Dispatcher.Dispatch(() =>
                     {
                         lblTimer.Text = "00:00";
-                        btnTimer.Text = "Uruchom";
+                        btnStartPauseTimer.Text = "Uruchom";
                     });
+
                     PlayNotificationSound();
                     return;
                 }
 
                 Dispatcher.Dispatch(() =>
                 {
-                    lblTimer.Text = $"{(int)timeRemaining.TotalMinutes:D2}:{timeRemaining.Seconds:D2}";
+                    lblTimer.Text = $"{(int)_remainingTime.TotalMinutes:D2}:{_remainingTime.Seconds:D2}";
                 });
 
                 await Task.Delay(1000);
@@ -68,10 +103,10 @@ namespace Pomodorex
 
         private void OnPomodoroDurationChanged(object sender, ValueChangedEventArgs args)
         {
-            running = false;
-            btnTimer.Text = "Uruchom";
-            pomodoroDuration = (byte)args.NewValue;
-            lblTimer.Text = $"{pomodoroDuration:D2}:00";
+            isStarted = false;
+            btnStartPauseTimer.Text = "Uruchom";
+            _pomodoroDuration = (byte)args.NewValue;
+            lblTimer.Text = $"{_pomodoroDuration:D2}:00";
         }
     }
 }
