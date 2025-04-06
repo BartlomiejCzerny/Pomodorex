@@ -6,7 +6,10 @@
         <VerticalStackLayout VerticalOptions="Center">
             <Label x:Name="lblTimer" FontSize="50" Text="25:00" HorizontalOptions="Center"/>
             <Slider WidthRequest="200" Minimum="1" Maximum="60" Value="25" ValueChanged="OnPomodoroDurationChanged"/>
-            <Button x:Name="btnTimer" WidthRequest="200" Text="Uruchom" Margin="20" Clicked="btnTimer_Clicked"/>
+            <HorizontalStackLayout HorizontalOptions="Center">
+                <Button x:Name="btnStartPauseTimer" WidthRequest="120" BackgroundColor="SkyBlue" TextColor="Black" Text="Uruchom" Margin="0,20,7.5,0" Clicked="btnStartPauseTimer_Clicked"/>
+                <Button x:Name="btnStopTimer" WidthRequest="120" Text="Zatrzymaj" Margin="7.5,20,0,0" IsEnabled="{Binding isStarted}" Clicked="btnStopTimer_Clicked"/>
+            </HorizontalStackLayout>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
