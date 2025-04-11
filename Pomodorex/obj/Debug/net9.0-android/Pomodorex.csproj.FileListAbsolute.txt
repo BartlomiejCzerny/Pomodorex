@@ -949,3 +949,4 @@ C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-android\stamp\_Gen
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-android\stamp\_ResolveLibraryProjectImports.stamp
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-android\android\assets\x86_64\System.Windows.Extensions.dll
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-android\assets\sound.wav
+C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-android\android\src\crc6452ffdc5b34af3a0f\MauiShapeableImageView.java

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Pomodorex")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+3cda0528dd30438238a55d60c440c3a7167becaa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+632419bf0fd81adf205b39afc69dcbb402ed7a14")]
 [assembly: System.Reflection.AssemblyProductAttribute("Pomodorex")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Pomodorex")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
