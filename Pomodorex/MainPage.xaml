@@ -1,14 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Pomodorex.Converters"
              x:Class="Pomodorex.MainPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <local:InverseBooleanConverter x:Key="InverseBoolConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
     <ScrollView>
         <VerticalStackLayout VerticalOptions="Center">
             <Label x:Name="lblTimer" FontSize="50" Text="25:00" HorizontalOptions="Center"/>
-            <Slider WidthRequest="200" Minimum="1" Maximum="60" Value="25" ValueChanged="OnPomodoroDurationChanged"/>
+            <Slider WidthRequest="200" Minimum="1" Maximum="60" Value="25" ValueChanged="OnPomodoroDurationChanged" IsEnabled="{Binding isStarted, Converter={StaticResource InverseBoolConverter}}"/>
             <HorizontalStackLayout HorizontalOptions="Center">
                 <Button x:Name="btnStartPauseTimer" WidthRequest="120" BackgroundColor="SkyBlue" TextColor="Black" Text="Uruchom" Margin="0,20,7.5,0" Clicked="btnStartPauseTimer_Clicked"/>
-                <Button x:Name="btnStopTimer" WidthRequest="120" Text="Zatrzymaj" Margin="7.5,20,0,0" IsEnabled="{Binding isStarted}" Clicked="btnStopTimer_Clicked"/>
+                <Button x:Name="btnStopTimer" WidthRequest="120" Text="Zatrzymaj" Margin="7.5,20,0,0" Clicked="btnStopTimer_Clicked" IsEnabled="{Binding isStarted}"/>
             </HorizontalStackLayout>
         </VerticalStackLayout>
     </ScrollView>

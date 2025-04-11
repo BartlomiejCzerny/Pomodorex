@@ -104,7 +104,6 @@ namespace Pomodorex
         private void OnPomodoroDurationChanged(object sender, ValueChangedEventArgs args)
         {
             isStarted = false;
-            btnStartPauseTimer.Text = "Uruchom";
             _pomodoroDuration = (byte)args.NewValue;
             lblTimer.Text = $"{_pomodoroDuration:D2}:00";
         }
