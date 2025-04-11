@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "l+Ap4esgBk4=",
+  "dgSpecHash": "sFBvoi4encU=",
   "success": true,
   "projectFilePath": "C:\\Users\\Bartek\\Projekty\\Pomodorex\\Pomodorex\\Pomodorex.csproj",
   "expectedPackageFiles": [
@@ -25,7 +25,7 @@
     "C:\\Users\\Bartek\\.nuget\\packages\\microsoft.maui.graphics\\9.0.60\\microsoft.maui.graphics.9.0.60.nupkg.sha512",
     "C:\\Users\\Bartek\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\9.0.60\\microsoft.maui.graphics.win2d.winui.desktop.9.0.60.nupkg.sha512",
     "C:\\Users\\Bartek\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.60\\microsoft.maui.resizetizer.9.0.60.nupkg.sha512",
-    "C:\\Users\\Bartek\\.nuget\\packages\\microsoft.net.illink.tasks\\9.0.3\\microsoft.net.illink.tasks.9.0.3.nupkg.sha512",
+    "C:\\Users\\Bartek\\.nuget\\packages\\microsoft.net.illink.tasks\\9.0.4\\microsoft.net.illink.tasks.9.0.4.nupkg.sha512",
     "C:\\Users\\Bartek\\.nuget\\packages\\microsoft.web.webview2\\1.0.2903.40\\microsoft.web.webview2.1.0.2903.40.nupkg.sha512",
     "C:\\Users\\Bartek\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
     "C:\\Users\\Bartek\\.nuget\\packages\\microsoft.windowsappsdk\\1.6.250228001\\microsoft.windowsappsdk.1.6.250228001.nupkg.sha512",
