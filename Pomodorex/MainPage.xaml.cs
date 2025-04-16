@@ -83,6 +83,7 @@ namespace Pomodorex
                     {
                         lblTimer.Text = "00:00";
                         btnStartPauseTimer.Text = "Uruchom";
+                        sliderDuration.IsEnabled = true;
                     });
 
                     PlayNotificationSound();
