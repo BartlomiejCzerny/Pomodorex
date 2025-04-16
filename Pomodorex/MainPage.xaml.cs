@@ -36,6 +36,7 @@ namespace Pomodorex
                 _remainingTime = TimeSpan.FromMinutes(_pomodoroDuration);
                 _timeEnds = DateTime.Now.Add(_remainingTime);
                 isStarted = true;
+                sliderDuration.IsEnabled = false;
                 btnStartPauseTimer.Text = "Wstrzymaj";
                 Task.Run(StartTimer);
             }
@@ -44,6 +45,7 @@ namespace Pomodorex
                 _remainingTime = _timeEnds - DateTime.Now;
                 isStarted = false;
                 _isPaused = true;
+                sliderDuration.IsEnabled = false;
                 btnStartPauseTimer.Text = "Wznów";
             }
             else if (_isPaused)
@@ -51,6 +53,7 @@ namespace Pomodorex
                 _timeEnds = DateTime.Now.Add(_remainingTime);
                 isStarted = true;
                 _isPaused = false;
+                sliderDuration.IsEnabled = false;
                 btnStartPauseTimer.Text = "Wstrzymaj";
                 Task.Run(StartTimer);
             }
@@ -60,6 +63,7 @@ namespace Pomodorex
         {
             isStarted = false;
             _isPaused = false;
+            sliderDuration.IsEnabled = true;
             btnStartPauseTimer.Text = "Uruchom";
             lblTimer.Text = $"{_pomodoroDuration:D2}:00";
         }
