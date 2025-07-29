@@ -69,11 +69,11 @@
           "dependencies": {
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
-              "version": "[9.0.4, )"
+              "version": "[9.0.7, )"
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[9.0.60, )"
+              "version": "[9.0.90, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -83,7 +83,7 @@
             },
             "System.Windows.Extensions": {
               "target": "Package",
-              "version": "[9.0.4, )"
+              "version": "[9.0.7, )"
             }
           },
           "imports": [
@@ -112,11 +112,11 @@
           "dependencies": {
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
-              "version": "[9.0.4, )"
+              "version": "[9.0.7, )"
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[9.0.60, )"
+              "version": "[9.0.90, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -126,7 +126,7 @@
             },
             "System.Windows.Extensions": {
               "target": "Package",
-              "version": "[9.0.4, )"
+              "version": "[9.0.7, )"
             }
           },
           "imports": [
@@ -155,11 +155,11 @@
           "dependencies": {
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
-              "version": "[9.0.4, )"
+              "version": "[9.0.7, )"
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[9.0.60, )"
+              "version": "[9.0.90, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -169,7 +169,7 @@
             },
             "System.Windows.Extensions": {
               "target": "Package",
-              "version": "[9.0.4, )"
+              "version": "[9.0.7, )"
             }
           },
           "imports": [
@@ -199,15 +199,15 @@
           "dependencies": {
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
-              "version": "[9.0.4, )"
+              "version": "[9.0.7, )"
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[9.0.60, )"
+              "version": "[9.0.90, )"
             },
             "System.Windows.Extensions": {
               "target": "Package",
-              "version": "[9.0.4, )"
+              "version": "[9.0.7, )"
             }
           },
           "imports": [
