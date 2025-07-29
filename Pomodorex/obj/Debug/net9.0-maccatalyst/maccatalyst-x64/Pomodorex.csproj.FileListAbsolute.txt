@@ -15,6 +15,7 @@ C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\bin\Debug\net9.0-maccatalyst\maccat
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.dll
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Essentials.dll
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Graphics.dll
+C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\System.Windows.Extensions.dll
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\ar\Microsoft.Maui.Controls.resources.dll
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\ca\Microsoft.Maui.Controls.resources.dll
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\cs\Microsoft.Maui.Controls.resources.dll
@@ -246,14 +247,15 @@ C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\bin\Debug\net9.0-maccatalyst\maccat
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet-nativeaot.a
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet.a
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet.dylib
+C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\Pomodorex.csproj.AssemblyReference.cache
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\mauiimage.inputs
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\mauifont.inputs
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\mauisplash.inputs
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\mauisplash.stamp
-C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\icon_notes_ios.png
-C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\icon_about.png
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\icon_about_ios.png
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\icon_notes.png
+C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\icon_notes_ios.png
+C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\icon_about.png
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appiconItunesArtwork.png
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon83.5x83.5@2x.png
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon76x76@2x.png
@@ -287,7 +289,6 @@ C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccat
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\coremlc\_BundleResourceWithLogicalName.items
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\_ProcessedBundleResourcesPath.items
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\_ProcessedContentPath.items
-C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\Pomodorex.csproj.AssemblyReference.cache
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\Pomodorex.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\Pomodorex.AssemblyInfoInputs.cache
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\Pomodorex.AssemblyInfo.cs
@@ -300,4 +301,3 @@ C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccat
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\Pomodorex.pdb
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\Pomodorex.genruntimeconfig.cache
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\ref\Pomodorex.dll
-C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\System.Windows.Extensions.dll
