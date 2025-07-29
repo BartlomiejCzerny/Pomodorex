@@ -81,7 +81,7 @@ namespace Pomodorex
 
                     Dispatcher.Dispatch(() =>
                     {
-                        lblTimer.Text = "00:00";
+                        lblTimer.Text = "Sesja zakończona";
                         btnStartPauseTimer.Text = "Uruchom";
                         sliderDuration.IsEnabled = true;
                     });
