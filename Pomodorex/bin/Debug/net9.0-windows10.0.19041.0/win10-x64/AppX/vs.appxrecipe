@@ -29,285 +29,285 @@
     <AppXManifest Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-04-16T22:10:11.345</Modified>
+      <Modified>2025-07-29T20:35:28.126</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-04-16T22:07:09.580</Modified>
+      <Modified>2025-07-29T20:35:27.967</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Pomodorex.runtimeconfig.json">
       <PackagePath>Pomodorex.runtimeconfig.json</PackagePath>
-      <Modified>2025-04-16T22:07:09.360</Modified>
+      <Modified>2025-07-29T20:35:27.616</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Pomodorex.dll">
       <PackagePath>Pomodorex.dll</PackagePath>
-      <Modified>2025-04-16T22:10:11.062</Modified>
+      <Modified>2025-07-29T20:35:26.579</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Pomodorex.exe</PackagePath>
-      <Modified>2025-04-16T22:10:11.077</Modified>
+      <Modified>2025-07-29T20:35:26.597</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
-      <Modified>2025-04-16T21:41:23.432</Modified>
+      <Modified>2025-07-29T20:29:21.790</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\Resources\Raw\sound.wav">
       <PackagePath>sound.wav</PackagePath>
-      <Modified>2025-04-16T21:41:23.439</Modified>
+      <Modified>2025-07-29T20:29:21.798</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2025-04-16T21:48:40.556</Modified>
+      <Modified>2025-07-29T20:29:28.398</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2025-04-16T21:48:40.567</Modified>
+      <Modified>2025-07-29T20:29:28.398</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2025-04-16T21:48:40.587</Modified>
+      <Modified>2025-07-29T20:29:28.399</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2025-04-16T21:48:40.617</Modified>
+      <Modified>2025-07-29T20:29:28.399</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2025-04-16T21:48:40.724</Modified>
+      <Modified>2025-07-29T20:29:28.400</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\f\FluentUI.cs">
       <PackagePath>FluentUI.cs</PackagePath>
-      <Modified>2025-04-16T21:41:23.427</Modified>
+      <Modified>2025-07-29T20:29:28.359</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
-      <Modified>2025-04-16T21:41:23.429</Modified>
+      <Modified>2025-07-29T20:29:28.361</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
-      <Modified>2025-04-16T21:41:23.430</Modified>
+      <Modified>2025-07-29T20:29:28.362</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2025-04-16T21:48:41.406</Modified>
+      <Modified>2025-07-29T20:29:28.363</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.396</Modified>
+      <Modified>2025-07-29T20:29:28.363</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.396</Modified>
+      <Modified>2025-07-29T20:29:28.363</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.396</Modified>
+      <Modified>2025-07-29T20:29:28.365</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.396</Modified>
+      <Modified>2025-07-29T20:29:28.365</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.396</Modified>
+      <Modified>2025-07-29T20:29:28.366</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.400</Modified>
+      <Modified>2025-07-29T20:29:28.366</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.400</Modified>
+      <Modified>2025-07-29T20:29:28.367</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.400</Modified>
+      <Modified>2025-07-29T20:29:28.367</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.400</Modified>
+      <Modified>2025-07-29T20:29:28.367</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.400</Modified>
+      <Modified>2025-07-29T20:29:28.369</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.403</Modified>
+      <Modified>2025-07-29T20:29:28.369</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.403</Modified>
+      <Modified>2025-07-29T20:29:28.370</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.400</Modified>
+      <Modified>2025-07-29T20:29:28.370</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.403</Modified>
+      <Modified>2025-07-29T20:29:28.370</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.403</Modified>
+      <Modified>2025-07-29T20:29:28.372</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.406</Modified>
+      <Modified>2025-07-29T20:29:28.372</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.406</Modified>
+      <Modified>2025-07-29T20:29:28.372</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.406</Modified>
+      <Modified>2025-07-29T20:29:28.373</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.405</Modified>
+      <Modified>2025-07-29T20:29:28.373</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.405</Modified>
+      <Modified>2025-07-29T20:29:28.374</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.405</Modified>
+      <Modified>2025-07-29T20:29:28.374</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.405</Modified>
+      <Modified>2025-07-29T20:29:28.375</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.403</Modified>
+      <Modified>2025-07-29T20:29:28.375</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.405</Modified>
+      <Modified>2025-07-29T20:29:28.376</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.403</Modified>
+      <Modified>2025-07-29T20:29:28.376</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.400</Modified>
+      <Modified>2025-07-29T20:29:28.376</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.400</Modified>
+      <Modified>2025-07-29T20:29:28.377</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.396</Modified>
+      <Modified>2025-07-29T20:29:28.377</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.396</Modified>
+      <Modified>2025-07-29T20:29:28.379</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.396</Modified>
+      <Modified>2025-07-29T20:29:28.380</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.400</Modified>
+      <Modified>2025-07-29T20:29:28.380</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.400</Modified>
+      <Modified>2025-07-29T20:29:28.381</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.400</Modified>
+      <Modified>2025-07-29T20:29:28.382</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.400</Modified>
+      <Modified>2025-07-29T20:29:28.382</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.400</Modified>
+      <Modified>2025-07-29T20:29:28.383</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.400</Modified>
+      <Modified>2025-07-29T20:29:28.383</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.400</Modified>
+      <Modified>2025-07-29T20:29:28.384</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.400</Modified>
+      <Modified>2025-07-29T20:29:28.384</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.400</Modified>
+      <Modified>2025-07-29T20:29:28.385</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.400</Modified>
+      <Modified>2025-07-29T20:29:28.385</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.396</Modified>
+      <Modified>2025-07-29T20:29:28.385</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.396</Modified>
+      <Modified>2025-07-29T20:29:28.386</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.396</Modified>
+      <Modified>2025-07-29T20:29:28.387</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.396</Modified>
+      <Modified>2025-07-29T20:29:28.387</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.396</Modified>
+      <Modified>2025-07-29T20:29:28.388</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.407</Modified>
+      <Modified>2025-07-29T20:29:28.388</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.407</Modified>
+      <Modified>2025-07-29T20:29:28.389</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.407</Modified>
+      <Modified>2025-07-29T20:29:28.390</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.406</Modified>
+      <Modified>2025-07-29T20:29:28.392</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.406</Modified>
+      <Modified>2025-07-29T20:29:28.394</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_about.scale-100.png">
       <PackagePath>icon_about.scale-100.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.396</Modified>
+      <Modified>2025-07-29T20:29:28.394</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_about_ios.scale-100.png">
       <PackagePath>icon_about_ios.scale-100.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.396</Modified>
+      <Modified>2025-07-29T20:29:28.395</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_notes.scale-100.png">
       <PackagePath>icon_notes.scale-100.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.396</Modified>
+      <Modified>2025-07-29T20:29:28.395</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_notes_ios.scale-100.png">
       <PackagePath>icon_notes_ios.scale-100.png</PackagePath>
-      <Modified>2025-04-16T21:48:41.396</Modified>
+      <Modified>2025-07-29T20:29:28.396</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -611,7 +611,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Pomodorex.deps.json">
       <PackagePath>Pomodorex.deps.json</PackagePath>
-      <Modified>2025-04-16T22:07:09.236</Modified>
+      <Modified>2025-07-29T20:35:27.487</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\.nuget\packages\microsoft.maui.controls.core\9.0.60\lib\net9.0-windows10.0.19041\Microsoft.Maui.Controls.pri">
       <PackagePath>Microsoft.Maui.Controls.pri</PackagePath>
