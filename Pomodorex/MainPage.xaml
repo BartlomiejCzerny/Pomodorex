@@ -3,19 +3,38 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Pomodorex.Converters"
              x:Class="Pomodorex.MainPage">
+
+    <!-- Definicja zasobów strony, m.in. konwerter negujący boolean -->
     <ContentPage.Resources>
         <ResourceDictionary>
+            <!-- Konwerter używany w Sliderze i przy przycisku Stop do odwrócenia wartości IsEnabled -->
             <local:InverseBooleanConverter x:Key="InverseBoolConverter" />
         </ResourceDictionary>
     </ContentPage.Resources>
+    
     <ScrollView>
         <VerticalStackLayout VerticalOptions="Center">
+
+            <!-- Etykieta wyświetlająca aktualny czas Pomodoro -->
             <Label x:Name="lblTimer" FontSize="50" Text="25:00" HorizontalOptions="Center"/>
-            <Slider x:Name="sliderDuration" WidthRequest="200" Minimum="1" Maximum="60" Value="25" ValueChanged="OnPomodoroDurationChanged" IsEnabled="{Binding isStarted, Converter={StaticResource InverseBoolConverter}}"/>
+
+            <!-- Slider do ustawiania długości sesji Pomodoro -->
+            <!-- IsEnabled jest powiązane z isStarted i odwrócone konwerterem -->
+            <Slider x:Name="sliderDuration" WidthRequest="200" Minimum="1" Maximum="60" Value="25" 
+                    ValueChanged="OnPomodoroDurationChanged" 
+                    IsEnabled="{Binding isStarted, Converter={StaticResource InverseBoolConverter}}"/>
+            
             <HorizontalStackLayout HorizontalOptions="Center">
-                <Button x:Name="btnStartPauseTimer" WidthRequest="120" BackgroundColor="SkyBlue" TextColor="Black" Text="Uruchom" Margin="0,20,7.5,0" Clicked="btnStartPauseTimer_Clicked"/>
-                <Button x:Name="btnStopTimer" WidthRequest="120" Text="Zatrzymaj" Margin="7.5,20,0,0" Clicked="btnStopTimer_Clicked" IsEnabled="{Binding isStarted}"/>
+                <!-- Przycisk start/pauza -->
+                <Button x:Name="btnStartPauseTimer" WidthRequest="120" BackgroundColor="SkyBlue" TextColor="Black" 
+                        Text="Uruchom" Margin="0,20,7.5,0" Clicked="btnStartPauseTimer_Clicked"/>
+
+                <!-- Przycisk zatrzymaj -->
+                <!-- IsEnabled powiązane z isStarted, więc działa tylko gdy timer jest aktywny -->
+                <Button x:Name="btnStopTimer" WidthRequest="120" Text="Zatrzymaj" Margin="7.5,20,0,0" 
+                        Clicked="btnStopTimer_Clicked" IsEnabled="{Binding isStarted}"/>
             </HorizontalStackLayout>
+            
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

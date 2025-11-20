@@ -70,11 +70,11 @@
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_about.scale-100.png">
       <PackagePath>icon_about.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_notes_ios.scale-100.png">
-      <PackagePath>icon_notes_ios.scale-100.png</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_notes.scale-100.png">
       <PackagePath>icon_notes.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_notes_ios.scale-100.png">
+      <PackagePath>icon_notes_ios.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_about_ios.scale-100.png">
       <PackagePath>icon_about_ios.scale-100.png</PackagePath>

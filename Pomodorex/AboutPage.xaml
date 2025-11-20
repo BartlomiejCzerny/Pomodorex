@@ -1,16 +1,64 @@
 <?xml version="1.0" encoding="utf-8" ?>
+<!--
+    AboutPage.xaml - ekran „O aplikacji” Pomodorex
+    Zawiera: logo, nazwę aplikacji, wersję, krótki opis i przycisk do dodatkowych informacji.
+-->
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Pomodorex.AboutPage">
+
+    <!--
+        VerticalStackLayout ustawia elementy w pionie
+        Spacing="20" - odstęp między elementami
+        Margin="20" - margines od krawędzi ekranu
+        VerticalOptions="Center" - centrowanie w pionie
+    -->
     <VerticalStackLayout Spacing="20" Margin="20" VerticalOptions="Center">
+
+        <!--
+            HorizontalStackLayout zawiera logo i teksty w poziomie
+            Spacing="10" - odstęp między elementami poziomymi
+        -->
         <HorizontalStackLayout Spacing="10">
+
+            <!--
+                Image: logo aplikacji
+                Source="dotnet_bot.png" - plik obrazu w projekcie
+                SemanticProperties.Description - opis dla czytników ekranu
+                HeightRequest="64" - wysokość obrazu w punktach
+            -->
             <Image Source="dotnet_bot.png"
                    SemanticProperties.Description="The dot net bot waving hello!"
                    HeightRequest="64" />
+
+            <!--
+                Label: nazwa aplikacji
+                FontSize="22", FontAttributes="Bold" - większy, pogrubiony tekst
+                VerticalOptions="End" - wyrównanie do dołu względem obrazu
+            -->
             <Label FontSize="22" FontAttributes="Bold" Text="Pomodorex" VerticalOptions="End" />
+
+            <!--
+                Label: wersja aplikacji
+                FontSize="22" - dopasowana do nazwy
+                VerticalOptions="End" - wyrównanie do dołu względem obrazu
+            -->
             <Label FontSize="22" Text="v1.0" VerticalOptions="End" />
         </HorizontalStackLayout>
+
+        <!--
+            Label: krótki opis aplikacji i instrukcja dla użytkownika
+            Tekst informuje, że Pomodorex to timer Pomodoro i zachęca do kliknięcia przycisku
+        -->
         <Label Text="Pomodorex to Pomodoro timer, który pomoże zwiększyć efektywność w codziennych czynnościach. Jeśli chcesz dowiedzieć się, czym jest Technika Pomodoro, kliknij poniższy przycisk." />
+
+        <!--
+            Button: przycisk otwierający zewnętrzną stronę z informacjami
+            WidthRequest="200" - szerokość przycisku
+            Text="Dowiedz się więcej..." - etykieta przycisku
+            Clicked="LearnMore_Clicked" - metoda obsługi kliknięcia w AboutPage.xaml.cs
+        -->
         <Button WidthRequest="200" Text="Dowiedz się więcej..." Clicked="LearnMore_Clicked" />
+        
     </VerticalStackLayout>
 </ContentPage>
