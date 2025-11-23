@@ -11801,8 +11801,8 @@ public final class R {
     public static final int ic_search_black_24=0x7f070098;
     public static final int icon_about=0x7f070099;
     public static final int icon_about_ios=0x7f07009a;
-    public static final int icon_notes=0x7f07009b;
-    public static final int icon_notes_ios=0x7f07009c;
+    public static final int icon_timer=0x7f07009b;
+    public static final int icon_timer_ios=0x7f07009c;
     public static final int indeterminate_static=0x7f07009d;
     public static final int m3_avd_hide_password=0x7f07009e;
     public static final int m3_avd_show_password=0x7f07009f;

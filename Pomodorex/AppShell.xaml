@@ -27,7 +27,7 @@
         -->
         <Tab
             Title="Timer"
-            Icon="{OnPlatform 'icon_notes.png', iOS='icon_notes_ios.png', MacCatalyst='icon_notes_ios.png'}">
+            Icon="{OnPlatform 'icon_timer.png', iOS='icon_timer_ios.png', MacCatalyst='icon_timer_ios.png'}">
             <ShellContent ContentTemplate="{DataTemplate local:MainPage}"/>
         </Tab>
 

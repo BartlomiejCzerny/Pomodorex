@@ -1,7 +1,7 @@
 ﻿obj\Debug\net9.0-android\resizetizer\r\drawable\icon_about.png
 obj\Debug\net9.0-android\resizetizer\r\drawable\icon_about_ios.png
-obj\Debug\net9.0-android\resizetizer\r\drawable\icon_notes.png
-obj\Debug\net9.0-android\resizetizer\r\drawable\icon_notes_ios.png
+obj\Debug\net9.0-android\resizetizer\r\drawable\icon_timer.png
+obj\Debug\net9.0-android\resizetizer\r\drawable\icon_timer_ios.png
 obj\Debug\net9.0-android\resizetizer\r\drawable-hdpi\dotnet_bot.png
 obj\Debug\net9.0-android\resizetizer\r\drawable-mdpi\dotnet_bot.png
 obj\Debug\net9.0-android\resizetizer\r\drawable-xhdpi\dotnet_bot.png

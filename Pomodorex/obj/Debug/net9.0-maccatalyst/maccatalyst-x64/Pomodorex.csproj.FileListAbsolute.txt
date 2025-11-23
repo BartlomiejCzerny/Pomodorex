@@ -253,8 +253,6 @@ C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccat
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\mauisplash.inputs
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\mauisplash.stamp
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\icon_about_ios.png
-C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\icon_notes.png
-C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\icon_notes_ios.png
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\icon_about.png
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appiconItunesArtwork.png
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon83.5x83.5@2x.png
@@ -306,3 +304,5 @@ C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\bin\Debug\net9.0-maccatalyst\maccat
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\Microsoft.VisualStudio.DesignTools.TapContract.dll
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\Microsoft.VisualStudio.DesignTools.XamlTapContract.dll
+C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\icon_timer.png
+C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\icon_timer_ios.png

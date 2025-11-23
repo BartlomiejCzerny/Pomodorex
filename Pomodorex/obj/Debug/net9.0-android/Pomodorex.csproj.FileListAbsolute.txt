@@ -27,8 +27,6 @@ C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-android\mauifont.s
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-android\resizetizer\f\FluentUI.cs
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-android\resizetizer\f\OpenSans-Regular.ttf
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-android\resizetizer\f\OpenSans-Semibold.ttf
-C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-android\resizetizer\r\drawable\icon_notes.png
-C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-android\resizetizer\r\drawable\icon_notes_ios.png
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-android\resizetizer\r\drawable\icon_about_ios.png
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-android\resizetizer\r\drawable\icon_about.png
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-android\resizetizer\r\drawable-xxxhdpi\dotnet_bot.png
@@ -959,3 +957,5 @@ C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-android\android\as
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.VisualStudio.DesignTools.TapContract.dll
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.VisualStudio.DesignTools.XamlTapContract.dll
+C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-android\resizetizer\r\drawable\icon_timer.png
+C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-android\resizetizer\r\drawable\icon_timer_ios.png
