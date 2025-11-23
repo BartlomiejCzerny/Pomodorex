@@ -668,3 +668,8 @@ C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Plugin.Maui.Audio.dll
+C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Maui.Controls.HotReload.Forms.dll
+C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
+C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.VisualStudio.DesignTools.TapContract.dll
+C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.VisualStudio.DesignTools.XamlTapContract.dll

@@ -67,17 +67,17 @@
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_about.scale-100.png">
-      <PackagePath>icon_about.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_notes.scale-100.png">
-      <PackagePath>icon_notes.scale-100.png</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_notes_ios.scale-100.png">
       <PackagePath>icon_notes_ios.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_about_ios.scale-100.png">
       <PackagePath>icon_about_ios.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_notes.scale-100.png">
+      <PackagePath>icon_notes.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_about.scale-100.png">
+      <PackagePath>icon_about.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
@@ -364,6 +364,9 @@
     <AppxPackagedFile Include="C:\Users\Bartek\.nuget\packages\microsoft.windowsappsdk\1.7.250606001\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bartek\.nuget\packages\plugin.maui.audio\4.0.0\lib\net9.0-windows10.0.19041\Plugin.Maui.Audio.dll">
+      <PackagePath>Plugin.Maui.Audio.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\.nuget\packages\system.windows.extensions\9.0.7\runtimes\win\lib\net9.0\System.Windows.Extensions.dll">
       <PackagePath>System.Windows.Extensions.dll</PackagePath>
     </AppxPackagedFile>
@@ -483,6 +486,18 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\.nuget\packages\microsoft.web.webview2\1.0.3179.45\runtimes\win-x64\native_uap\Microsoft.Web.WebView2.Core.dll">
       <PackagePath>Microsoft.Web.WebView2.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\XamlDiagnostics\Mobile\Microsoft.Maui.Controls.HotReload.Forms.dll">
+      <PackagePath>Microsoft.Maui.Controls.HotReload.Forms.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\XamlDiagnostics\Mobile\Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll">
+      <PackagePath>Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\XamlDiagnostics\Mobile\Microsoft.VisualStudio.DesignTools.TapContract.dll">
+      <PackagePath>Microsoft.VisualStudio.DesignTools.TapContract.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\XamlDiagnostics\Mobile\Microsoft.VisualStudio.DesignTools.XamlTapContract.dll">
+      <PackagePath>Microsoft.VisualStudio.DesignTools.XamlTapContract.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bartek\.nuget\packages\microsoft.web.webview2\1.0.3179.45\lib_manual\net8.0-windows10.0.17763.0\Microsoft.Web.WebView2.Core.Projection.dll">
       <PackagePath>Microsoft.Web.WebView2.Core.Projection.dll</PackagePath>

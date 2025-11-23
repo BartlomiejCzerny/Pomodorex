@@ -301,3 +301,8 @@ C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccat
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\Pomodorex.pdb
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\Pomodorex.genruntimeconfig.cache
 C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\ref\Pomodorex.dll
+C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\Plugin.Maui.Audio.dll
+C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Controls.HotReload.Forms.dll
+C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
+C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\Microsoft.VisualStudio.DesignTools.TapContract.dll
+C:\Users\Bartek\Projekty\Pomodorex\Pomodorex\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\Microsoft.VisualStudio.DesignTools.XamlTapContract.dll

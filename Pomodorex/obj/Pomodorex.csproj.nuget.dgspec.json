@@ -81,6 +81,10 @@
               "version": "[9.0.9, )",
               "autoReferenced": true
             },
+            "Plugin.Maui.Audio": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
             "System.Windows.Extensions": {
               "target": "Package",
               "version": "[9.0.7, )"
@@ -123,6 +127,10 @@
               "target": "Package",
               "version": "[9.0.9, )",
               "autoReferenced": true
+            },
+            "Plugin.Maui.Audio": {
+              "target": "Package",
+              "version": "[4.0.0, )"
             },
             "System.Windows.Extensions": {
               "target": "Package",
@@ -167,6 +175,10 @@
               "version": "[9.0.9, )",
               "autoReferenced": true
             },
+            "Plugin.Maui.Audio": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
             "System.Windows.Extensions": {
               "target": "Package",
               "version": "[9.0.7, )"
@@ -204,6 +216,10 @@
             "Microsoft.Maui.Controls": {
               "target": "Package",
               "version": "[9.0.90, )"
+            },
+            "Plugin.Maui.Audio": {
+              "target": "Package",
+              "version": "[4.0.0, )"
             },
             "System.Windows.Extensions": {
               "target": "Package",

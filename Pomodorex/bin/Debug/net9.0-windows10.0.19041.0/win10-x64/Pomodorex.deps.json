@@ -11,7 +11,12 @@
         "dependencies": {
           "Microsoft.Extensions.Logging.Debug": "9.0.7",
           "Microsoft.Maui.Controls": "9.0.90",
+          "Plugin.Maui.Audio": "4.0.0",
           "System.Windows.Extensions": "9.0.7",
+          "Microsoft.Maui.Controls.HotReload.Forms": "17.0.0.0",
+          "Microsoft.VisualStudio.DesignTools.MobileTapContracts": "17.0.0.0",
+          "Microsoft.VisualStudio.DesignTools.TapContract": "17.0.0.0",
+          "Microsoft.VisualStudio.DesignTools.XamlTapContract": "17.0.0.0",
           "Microsoft.Web.WebView2.Core.Projection": "1.0.3179.45",
           "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.57"
         },
@@ -482,11 +487,54 @@
           }
         }
       },
+      "Plugin.Maui.Audio/4.0.0": {
+        "dependencies": {
+          "Microsoft.Maui.Controls": "9.0.90"
+        },
+        "runtime": {
+          "lib/net9.0-windows10.0.19041/Plugin.Maui.Audio.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
       "System.Windows.Extensions/9.0.7": {
         "runtime": {
           "runtimes/win/lib/net9.0/System.Windows.Extensions.dll": {
             "assemblyVersion": "9.0.0.0",
             "fileVersion": "9.0.725.31616"
+          }
+        }
+      },
+      "Microsoft.Maui.Controls.HotReload.Forms/17.0.0.0": {
+        "runtime": {
+          "Microsoft.Maui.Controls.HotReload.Forms.dll": {
+            "assemblyVersion": "17.0.0.0",
+            "fileVersion": "17.14.40460.7212"
+          }
+        }
+      },
+      "Microsoft.VisualStudio.DesignTools.MobileTapContracts/17.0.0.0": {
+        "runtime": {
+          "Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll": {
+            "assemblyVersion": "17.0.0.0",
+            "fileVersion": "17.14.40460.7212"
+          }
+        }
+      },
+      "Microsoft.VisualStudio.DesignTools.TapContract/17.0.0.0": {
+        "runtime": {
+          "Microsoft.VisualStudio.DesignTools.TapContract.dll": {
+            "assemblyVersion": "17.0.0.0",
+            "fileVersion": "17.14.40460.7212"
+          }
+        }
+      },
+      "Microsoft.VisualStudio.DesignTools.XamlTapContract/17.0.0.0": {
+        "runtime": {
+          "Microsoft.VisualStudio.DesignTools.XamlTapContract.dll": {
+            "assemblyVersion": "17.0.0.0",
+            "fileVersion": "17.14.40460.7212"
           }
         }
       },
@@ -672,12 +720,39 @@
       "path": "microsoft.windowsappsdk/1.7.250606001",
       "hashPath": "microsoft.windowsappsdk.1.7.250606001.nupkg.sha512"
     },
+    "Plugin.Maui.Audio/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-axet2WKKft9UAGTtCbflkMeWNmZHQJixIJxIbRzhRqoFifr5nFcZV0PWV/E0NPBUjkydBWVlRqXA1hQWMeY/0A==",
+      "path": "plugin.maui.audio/4.0.0",
+      "hashPath": "plugin.maui.audio.4.0.0.nupkg.sha512"
+    },
     "System.Windows.Extensions/9.0.7": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-aQUSzCgfxojPc/ngpks6+CUMZiiXYsuCMpVqeJZBN2YTnlmRgs9k03nX8kJ9h9eEGNrSGs6x3rnd0adAppgc0w==",
       "path": "system.windows.extensions/9.0.7",
       "hashPath": "system.windows.extensions.9.0.7.nupkg.sha512"
+    },
+    "Microsoft.Maui.Controls.HotReload.Forms/17.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.VisualStudio.DesignTools.MobileTapContracts/17.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.VisualStudio.DesignTools.TapContract/17.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.VisualStudio.DesignTools.XamlTapContract/17.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.Web.WebView2.Core.Projection/1.0.3179.45": {
       "type": "reference",

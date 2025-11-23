@@ -1,4 +1,4 @@
-﻿using System.Media;
+﻿using Plugin.Maui.Audio;
 
 namespace Pomodorex
 {
@@ -154,13 +154,18 @@ namespace Pomodorex
         }
 
         // Odtwarzanie dźwięku po zakończeniu sesji.
-        private void PlayNotificationSound()
+        private async void PlayNotificationSound()
         {
-            // Zakładamy, że plik sound.wav znajduje się obok pliku wykonywalnego.
-            var path = Path.Combine(AppContext.BaseDirectory, "sound.wav");
-
-            var player = new SoundPlayer(path);
-            player.Play();
+            try
+            {
+                var audioManager = AudioManager.Current;
+                var player = audioManager.CreatePlayer(await FileSystem.OpenAppPackageFileAsync("sound.wav"));
+                player.Play();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Błąd odtwarzania dźwięku: {ex.Message}");
+            }
         }
 
         // Reakcja na zmianę wartości slidera (czas trwania Pomodoro).
